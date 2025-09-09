@@ -1,0 +1,7 @@
+[package]
+name = "zkEcdsa"
+type = "bin"
+authors = ["serverConnected"]
+
+[dependencies]
+ecrecover = { tag = "main", git = "https://github.com/s4rv4d/ecrecover-noir" }
